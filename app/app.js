@@ -62,7 +62,17 @@ var futureContent = `<div class="fullsite">
   </span>
 </div>
 </div>`;
-// var contactContent = ``;
+var contactContent = `        <div class="fullsite">
+<div class="contact-content">
+  <h1>contact me:</h1>
+  <input type="text" id="fName" placeholder="first name..." />
+  <input type="text" id="fName" placeholder="last name..." />
+  <input type="text" id="fName" placeholder="email..." />
+  <input type="text" id="fName" placeholder="phone number..." />
+  <div class="button">SUBMIT</div>
+  <div class="thank-you-image"></div>
+</div>
+</div>`;
 
 function initListeners() {
   $("nav a").click(function (e) {

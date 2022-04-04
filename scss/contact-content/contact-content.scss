@@ -1,0 +1,52 @@
+.fullsite {
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            color: #000;
+            margin-top: 25px;
+            margin-bottom: 50px;
+        }
+        input {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+            color: #000;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border: gainsboro;
+            width: 300px;
+            height: 40px;
+            padding-left: 5px;
+        }
+        .button {
+            width: 225px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: salmon;
+            color: #fff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .thank-you-image {
+            width: 90%;
+            height: 300px;
+            background-image: url(../images/thankyou.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 60px;
+        }
+    }
+}
