@@ -1,0 +1,25 @@
+.content {
+  //   background-color: bisque;
+  padding: 50px;
+
+  .products {
+    width: 900px;
+    min-height: 50px;
+    // background-color: blue;
+    margin: 0 auto;
+    .product {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 50px;
+      .prod-image {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: pink;
+      }
+      .prod-desc {
+        width: 500px;
+      }
+    }
+  }
+}
