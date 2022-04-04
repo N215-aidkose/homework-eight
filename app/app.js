@@ -23,8 +23,45 @@ var homeContent = `  <div class="fullsite">
   </div>
 </div>
 </div>`;
-var aboutContent = ``;
-// var productsContent = ``;
+var learnContent = `<div class="fullsite">
+<div class="about-content">
+  <h1>about:</h1>
+  <p>
+    This is a link to w3Schools that I used to learn more about
+    jQuery.
+  </p>
+  <a href=" https://www.w3schools.com/jquery/default.asp">
+    https://www.w3schools.com/jquery/default.asp</a
+  >
+  <div class="w3-image"></div>
+  <p>
+    I have learned a lot from w3 schools. It is an incredibly useful
+    resource for newer and more experienced coders, and it's free!
+  </p>
+</div>
+</div>`;
+var futureContent = `<div class="fullsite">
+<div class="future-content">
+  <h1>my plans for the future:</h1>
+  <p>
+    I plan on continuing to learn web-development, with an end goal of
+    becoming a full-stack developer with experience and knowledge in
+    multiple languages and to have experiences in both front end and
+    back end web-development. Below, I decided to give my favorite
+    project thus far some love, because at the time I hated it.
+  </p>
+  <h1>my favorite project thus far:</h1>
+  <div class="project-img"></div>
+  <span>
+    Looking back, though Sweet.io at the time was incredibly difficult
+    for me, I learned so much from that website. I learned about
+    linear gradients, how to add new fonts to your project, how to
+    round images, and creative ways of aligning images and text.
+    Though it was a pain to do, I look back on it and appreciate it
+    for teaching me so much about html and css.
+  </span>
+</div>
+</div>`;
 // var contactContent = ``;
 
 function initListeners() {
@@ -46,6 +83,6 @@ function initApp() {
 }
 
 $(document).ready(function () {
-  // loadPageContent("home");
+  loadPageContent("home");
   initApp();
 });

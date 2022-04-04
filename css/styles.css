@@ -159,6 +159,62 @@ footer {
   width: 80%;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 18px;
+  text-align: center;
+}
+.fullsite .about-content a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  color: #000;
+  font-size: 18px;
+}
+.fullsite .about-content a:hover {
+  border-bottom: 2px solid salmon;
+}
+.fullsite .about-content .w3-image {
+  margin-top: 25px;
+  width: 300px;
+  height: 300px;
+  background-image: url(../images/w3s-png-2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.fullsite .future-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.fullsite .future-content h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  color: #000;
+  margin-top: 25px;
+}
+.fullsite .future-content p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  color: #000;
+  width: 80%;
+}
+.fullsite .future-content .project-img {
+  width: 1000px;
+  height: 500px;
+  background-image: url(../images/sweet.JPG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fullsite .future-content span {
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #000;
+  width: 1000px;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
